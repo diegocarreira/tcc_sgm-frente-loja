@@ -1,0 +1,20 @@
+delimiter |
+CREATE TRIGGER `insert_venda_produto` after INSERT ON `itemvenda`
+  FOR EACH ROW BEGIN
+    UPDATE `itemproduto` SET estoque = ( estoque - NEW.qtd) WHERE idpro = NEW.idpro and tam = NEW.tam;
+  END;
+  |
+
+delimiter ;
+
+
+
+
+delimiter |
+CREATE TRIGGER `delete_venda_produto` after DELETE ON `itemvenda`
+  FOR EACH ROW BEGIN
+    UPDATE `itemproduto` SET estoque = ( estoque + OLD.qtd) WHERE idpro = OLD.idpro and tam = OLD.tam;
+  END;
+  |
+
+delimiter ;

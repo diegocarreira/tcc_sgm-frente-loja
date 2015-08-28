@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* \\\\\\\\\ LOGIN  /////////////  #004A4A  #069 */
+
+#login{ width:240px; position:relative;  margin:auto; top:100px; }
+
+.login {0background-color:#069; }
+.font-login{ color:#000; }
+
+
+
+/* \\\\\\\\\   /////////// */
+
+.logo{
+	position:relative;
+	left:45%;
+	margin-left:-10%;
+	top:150px;
+}
+
+
+
+body{margin:0px; padding:0px; width:100%; height:100%;} 
+
+* {text-decoration:none;}
+
+
+#conteudo{margin-top:50px}
+
+
+
+
+/*#rodape{width:100%; position:absolute; margin:auto; height:28px; background-color:#006666; 
+		bottom:0px; 
+}*/
+
+
+
+
+/* \\\\\\\\\ FORMULARIOS DE CADASTRO  ///////////// #E1E1E1 EEEEEE  ( #006666 )   */
+
+.form{  margin-left:20px; width:400px; border:3px solid #069; background-color:#E1E1E1; 
+	 font-size:18px; font-variant:normal; 	 margin-top:20px; float:left; 
+
+}
+
+.form2{ margin-left:-2px;  border:3px solid #069; background-color:#E1E1E1; 
+	 font-size:18px; font-variant:normal; 	 margin-top:20px; float:left; 
+}
+	 
+	.formTitulo{font-weight:bold; text-align:center;
+	}
+	
+	.formBotao{ border:0px ; width:100px; height:30px; padding-left:5px; background-color:#069; color:#000; text-decoration:none;
+	}	
+	
+	.formBotao2{ border:0px ; width:100px; height:25px;  background-color:#069; color:#000;display:block;float:right;
+			text-decoration:none;font-size:16px; font-variant:inherit; text-align:center; text-transform:uppercase; padding-top:5px; 
+	  		left:-190px; position:relative;  		
+	}
+	
+
+
+  
+label {  
+	/*margin-left:10px;*/
+    width: 111px;    	
+   	font-family:Verdana, Arial, Helvetica, sans-serif;
+   	font-size: 12px;
+   	float: left;
+   	margin-top: 6px;
+	text-transform:uppercase;
+	
+}
+
+input {
+	text-transform:uppercase;
+
+}
+
+
+#linha-pesquisa {display:block; color:#000; text-decoration:none; text-align:center; float:left; padding-right:50px; 
+border:1px solid #069; width:430px; padding-top:5px;
+	}
+	
+#linha-pesquisa:hover{background-color:#069}	
+
+.slide{display:block; color:#000; text-decoration:none; text-align:center; float:left; 0padding-right:50px; 
+ solid #069; width:0px; height:25px; 0border:1px solid #CCC; margin-top:18px; float:right}
+
+.icone{
+	border:none;
+	width:26px;
+	height:26px;	
+}
+
+
+#cadastro{
+	width:400px;
+}
+  
+/* \\\\\\\\\\\\\ fim de formularios de cadastro ///////////////// */
+
+.pesquisa2 table tr td{
+	border:1px solid #069;
+	padding-left:10px;
+}
+
+.table-pesq a{
+	text-decoration:none;
+}
+
+
+.red{ color:#FF0000;}
+.green{ color:#090; font-weight:bold; }
+
+.right{ float:right;}
+.fRight{ float:right;}
+.fLeft{ float:left;}
+
+.textRight{ text-align:right !important;}
+.textLeft{ text-align:left !important;}
+.textCenter{ text-align:center !important;}
+
+.w50{
+	width:50%;
+}
+
+.w100{
+	width:100%;
+}
+
+
+/* Venda */
+
+.spanDate{
+	position:absolute;
+	right:45%;
+	display:inline-block;
+	width:120px;
+	height:30px;
+	
+}
+
+.spanCliente{
+	margin-left:-20px;
+	font-size:14px;
+	color: green;
+	font-weight:bold;
+}
+
+.boxClientes{
+	/*background:#FFFF99;*/
+	height:100px;
+	margin-top:50px;
+	display:none;
+}
+
+
+
+#formItemVenda p{
+	margin-left:20px;
+}
+
+#formItemVenda label{
+	text-align:center;
+	display:block;
+
+}
+
+.spanValorTotal{
+	position:absolute;
+	right:20px;
+	text-align:center;
+}
+	.spanValorTotal .total{
+		font-size:24px;
+		line-height:24px;
+		color: red;
+	}
+
+
+/*grid*/
+
+.tGrid tr td{
+	border:1px solid #CCC;
+
+}
+
+/* div parcelas */
+
+.fadeParcelas{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.divContainerParcelas{
+	width:300px;
+	height:440px;
+	position:absolute;
+	top:50%;
+	margin-top:-200px;
+	left:50%;
+	margin-left:-150px;
+}
+
+
+.divParcelas{
+	width:300px;
+	height:400px;
+	background:#EEE;
+	border:1px solid #069;
+	position:absolute;
+	top:0px;
+	left:0px;
+	overflow-y:auto;
+}
+
+
+
+.divParcelas table tr th{
+	background:#069;
+	border:1px solid #FFF;
+}
+
+.divContainerParcelas .botoes{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	margin-top:10px;
+}
+
+
+/* lancamento de c.pagar*/
+
+.boxFornecedor{
+	/*background:#FFFF99;*/
+	height:100px;
+	margin-top:50px;
+	display:none;
+}
+
+
+
+.spanFornecedor{
+	margin-left:-20px;
+	font-size:14px;
+	color: green;
+	font-weight:bold;
+}
+
+
+.bgRed{
+	background:#FF6262;
+}
+
+.bgGreen{
+	background:#00BB5E;
+}
+
+.btBuscar{
+	margin-top:50px !important;
+}
+
+.top10{
+	position:absolute;
+	top:50px;
+	left:500px;
+}
+
+.top20{
+	position:absolute;
+	top:50px;
+	left:50%;
+	margin-left:-130px;
+}

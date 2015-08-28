@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+	max-width:100% !important;
+	border-collapse:collapse !important;
+	border-spacing:0 !important;
+}
+
+table tr td{
+	border:1px solid #333 !important;
+}
+
+input,
+a
+{
+	display:none !important;
+}
+
+.noPrint{
+	display:none;
+}
